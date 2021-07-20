@@ -6,7 +6,7 @@
 # the MIT License: http://www.opensource.org/licenses/mit-license.php
 
 from . import base, psycopg2, pg8000, pypostgresql, pygresql, \
-    zxjdbc, psycopg2cffi  # noqa
+    zxjdbc, psycopg2cffi, pyopengauss  # noqa
 
 from .base import \
     INTEGER, BIGINT, SMALLINT, VARCHAR, CHAR, TEXT, NUMERIC, FLOAT, REAL, \
